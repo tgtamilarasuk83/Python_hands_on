@@ -1,12 +1,12 @@
 import math
 
-r = float(input("Enter the radius of the circle: "))
-an = float(input("Enter the angle in degrees (for sector area): "))
+r = 23.5
+an = 34.5
 
 d = 2 * r
 cic = 2 * math.pi * r
 s = (an / 360) * math.pi * r * r
-ar= (an / 360) * cic
+ar = (an / 360) * cic
 
 print("Radius:", r)
 print("Diameter:", d)
